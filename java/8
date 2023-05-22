@@ -6,7 +6,7 @@ class VectorDemo
     Scanner sc = new Scanner(System.in);
     String str;	
     
-    Vector v = new Vector(3,2);
+    Vector<String> v = new Vector<String>(3,2);
     
     System.out.println("Initial size=" + v.size());
     System.out.println("Initial capacity=" + v.capacity());
@@ -19,7 +19,7 @@ class VectorDemo
     for(i=0;i<n;i++)
     {
       System.out.println("Student"+(i+1)+": ");
-      str = sc.nextLine();
+      str = sc.next();
       v.addElement(str);
     }
     System.out.println("Size after adding elements=" + v.size());
@@ -28,9 +28,9 @@ class VectorDemo
     do
     {
       System.out.println("Select the following operation:");
-      System.out.println("\n1. Add student name\n2. Remove student name\n3. Display student list\n4. Exit");
-      System.out.println("-------");
-      System.out.print("Enter your choice :");
+      System.out.println("1. Add student name\n2. Remove student name\n3. Display student list\n4. Exit");
+      System.out.println("--------------");
+      System.out.print("Enter your choice: ");
       choice = sc.nextInt();
       switch(choice)
       {
@@ -42,28 +42,31 @@ class VectorDemo
                 for(i=0;i<n;i++)
                 {
                   System.out.println("Student"+(i+1)+": ");
-                  str = sc.nextLine();
+                  str = sc.next();
                   v.addElement(str);
                 }
                 System.out.println("Size after adding elements=" + v.size());
                 System.out.println("Capacity size after adding elements=" + v.capacity());
+			System.out.println("--------------");
                 break;
                 
         case 2: System.out.println("--------------");
                 System.out.println("2. Remove student name");
-                System.out.print("Enter the name of student:");
-                str = sc.nextLine();
+                System.out.print("Enter the name of student: ");
+                str = sc.next();
                 v.removeElement(str);
                 System.out.println("Size after removing elements=" + v.size());
-                System.out.println("Capacity size after removing elements=" + v.capacity() );
+                System.out.println("Capacity size after removing elements=" + v.capacity());
+			System.out.println("--------------");
                 break;
                 
         case 3: System.out.println("--------------");
                 System.out.println("3. Display student list");
                 for(i=0; i<v.size(); i++)
                 {
-                  System.out.println(v.elementAt(i));
+                  System.out.println((i+1)+") "+v.elementAt(i));
                 }
+			System.out.println("--------------");
                 break;
                 
         case 4: System.exit(0);
