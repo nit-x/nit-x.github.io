@@ -19,6 +19,8 @@ Replace the brackets with the required name
 
 ```bash 
 C:\Users\admin\Desktop> curl -s -o ScannerDemo.java https://nit-x.github.io/java/1 | cls
+C:\Users\admin\Desktop> javac ScannerDemo.java
+C:\Users\admin\Desktop> java ScannerDemo
 ```
 
 * <h2>Index:</h2>
