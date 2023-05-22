@@ -18,7 +18,7 @@
 
    * ```cls``` is used to clear the terminal screen
 
-   **NOTE: Don't forget to use 'cls' command as download history will remain displayed on the terminal and the examiner might doubt.**
+   **NOTE: Don't forget to use 'cls' command as downloaded history command will remain displayed on the terminal and the examiner might doubt you.**
 
  * <h2>Example:</h2>
 
