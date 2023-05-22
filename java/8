@@ -37,7 +37,7 @@ class VectorDemo
         case 1: System.out.println("--------------");
                 System.out.println("1. Add student name");
                 System.out.println("Enter number of students you want to add: ");
-                int n = sc.nextInt();
+                n = sc.nextInt();
                 System.out.println("Enter the names of students: ");
                 for(i=0;i<n;i++)
                 {
