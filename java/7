@@ -15,6 +15,7 @@ class ArrayDemo
     System.out.println("Enter array elements: ");
     for (i=0 ; i<n ; i++)
     { 
+      System.out.println("Element"+(n+1)+": ");
       a[i] = sc.nextInt();
       sum += a[i];
     }
