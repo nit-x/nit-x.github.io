@@ -1,5 +1,8 @@
 # Java Practical Codes
 
+* <h2>Lab Manual PDF</h2>
+  Click  here to [**DOWNLOAD**](https://nit-x.github.io/java/Lab%20Manual.pdf/)
+
 * <h2>Syntax:</h2>
 Paste the following command in terminal to download the code:
 
