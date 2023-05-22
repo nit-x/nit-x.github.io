@@ -1,0 +1,79 @@
+import java.util.*;
+class VectorDemo
+{
+  public static void main(String args[])
+  {
+    Scanner sc = new Scanner(System.in);
+    String str;	
+    
+    Vector v = new Vector(3,2);
+    
+    System.out.println("Initial size=" + v.size());
+    System.out.println("Initial capacity=" + v.capacity());
+    
+    int i,choice=0;
+    
+    System.out.println("Enter number of students you want to add: ");
+    int n = sc.nextInt();
+    System.out.println("Enter the names of students: ");
+    for(i=0;i<n;i++)
+    {
+      System.out.println("Student"+(i+1)+": ");
+      str = sc.nextLine();
+      v.addElement(str);
+    }
+    System.out.println("Size after adding elements=" + v.size());
+    System.out.println("Capacity size after adding elements=" + v.capacity());
+    
+    do
+    {
+      System.out.println("Select the following operation:");
+      System.out.println("\n1. Add student name\n2. Remove student name\n3. Display student list\n4. Exit");
+      System.out.println("-------");
+      System.out.print("Enter your choice :");
+      choice = sc.nextInt();
+      switch(choice)
+      {
+        case 1: System.out.println("--------------");
+                System.out.println("1. Add student name");
+                System.out.println("Enter number of students you want to add: ");
+                int n = sc.nextInt();
+                System.out.println("Enter the names of students: ");
+                for(i=0;i<n;i++)
+                {
+                  System.out.println("Student"+(i+1)+": ");
+                  str = sc.nextLine();
+                  v.addElement(str);
+                }
+                System.out.println("Size after adding elements=" + v.size());
+                System.out.println("Capacity size after adding elements=" + v.capacity());
+                break;
+                
+        case 2: System.out.println("--------------");
+                System.out.println("2. Remove student name");
+                System.out.print("Enter the name of student:");
+                str = sc.nextLine();
+                v.removeElement(str);
+                System.out.println("Size after removing elements=" + v.size());
+                System.out.println("Capacity size after removing elements=" + v.capacity() );
+                break;
+                
+        case 3: System.out.println("--------------");
+                System.out.println("3. Display student list");
+                for(i=0; i<v.size(); i++)
+                {
+                  System.out.println(v.elementAt(i));
+                }
+                break;
+                
+        case 4: System.exit(0);
+                break;
+                
+        default: System.out.println("Invalid choice");
+                 break;
+      }
+    }while(choice>=1 && choice<=4);
+  }
+}
+
+
