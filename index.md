@@ -9,13 +9,13 @@ curl -s -o [FILENAME].java https://nit-x.github.io/[NUM] | cls
 ```
 Replace the brackets with the required name
 
-```[FILENAME]``` --> Name of downloaded file. Rename it as 'classname' after downloaded.
+ * ```[FILENAME]``` --> Name of downloaded file. Rename it as 'classname' after downloaded.
 
-```[NUM]``` --> Experiment number. If the experiment has two codes then use ```[NUM]v2``` , eg. ```1v2```
+ * ```[NUM]``` --> Experiment number. If the experiment has two codes then use ```[NUM]v2``` , eg. ```1v2```
 
-```cls``` is used to clear the terminal screen
+ * ```cls``` is used to clear the terminal screen
 
-* <h2>Example:</h2>
+ * <h2>Example:</h2>
 
 ```bash 
 C:\Users\admin\Desktop> curl -s -o ScannerDemo.java https://nit-x.github.io/java/1 | cls
