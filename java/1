@@ -1,0 +1,38 @@
+import java.util.*;
+class Scanner {
+ public static void main(String[] args) {
+   Scanner s1 = new Scanner(System.in);
+   
+   System.out.print("Enter a String:");
+   String s = s1.nextLine();
+   System.out.println("The entered String is: " + s)
+     
+   System.out.print("Enter a character:");
+   char c = (char)System.in.read();
+   System.out.println("The entered character is: " + c);
+   
+   System.out.print("Enter a Byte:");
+   int b = s1.nextByte();
+   System.out.println("The entered Byte is: " + b);
+   
+   System.out.print("Enter a Short:");
+   int sh = s1.nextShort();
+   System.out.println("The entered Short is: " + sh);
+   
+   System.out.print("Enter an Integer:");
+   int i = s1.nextInt();
+   System.out.println("The entered Integer is: " + i);
+   
+   System.out.print("Enter a Long:");
+   long l = s1.nextLong();
+   System.out.println("The entered Long is: " + l);
+   
+   System.out.print("Enter a Float no:");
+   float f = s1.nextFloat();
+   System.out.println("The entered Float is: " + f);
+   
+   System.out.print("Enter a Double:");
+   double d = s1.nextDouble();
+   System.out.println("The entered Double is: " + d);
+ }
+}
