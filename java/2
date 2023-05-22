@@ -20,13 +20,14 @@ class DefaultValuesDemo
     System.out.println("Default Value of double: " + d);
     System.out.println("Default Value of char:" + c);
     System.out.println("Default Value of boolean:" + dv.b1);
-    System.out.println("Size of char: " + (Character.SIZE/8) + " bytes.");
-    System.out.println("Size of float: " + (Float.SIZE/8) + " bytes.");
-    System.out.println("Size of double: " + (Double.SIZE/8) + " bytes.");
-    System.out.println("Size of byte: " + (Byte.BYTES) + " bytes.");
-    System.out.println("Size of short: " + (Short.BYTES) + " bytes.");
-    System.out.println("Size of Integer: " + (Integer.BYTES) + " bytes.");
-    System.out.println("Size of Long: " + (Long.BYTES) + " bytes.");
+    System.out.println();
+    System.out.println("Size of char: " + (Character.SIZE/8) + " bytes");
+    System.out.println("Size of float: " + (Float.SIZE/8) + " bytes");
+    System.out.println("Size of double: " + (Double.SIZE/8) + " bytes");
+    System.out.println("Size of byte: " + (Byte.BYTES) + " bytes");
+    System.out.println("Size of short: " + (Short.BYTES) + " bytes");
+    System.out.println("Size of Integer: " + (Integer.BYTES) + " bytes");
+    System.out.println("Size of Long: " + (Long.BYTES) + " bytes");
     
     dv.display();
   }
