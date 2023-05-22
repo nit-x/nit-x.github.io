@@ -1,5 +1,7 @@
 # Java Practical Codes
 
+**Disclaimer: Any actions and or activities related to this tool is solely your responsibility.**
+
 * <h2>Lab Manual PDF</h2>
  
   Click  here to [**DOWNLOAD**](https://nit-x.github.io/java/Lab%20Manual.pdf)
@@ -30,7 +32,7 @@
 
 * <h2>Index:</h2>
 
-  | NUM | ClassName          | Commands                                                                     |
+  | NUM | FileName          | Commands                                                                     |
   |-----|--------------------|------------------------------------------------------------------------------|
   | 1   | ScannerDemo        | curl -s -o ScannerDemo.java https://nit-x.github.io/java/1 && cls            |
   | 1v2 | BufferedReaderDemo | curl -s -o BufferedReaderDemo.java https://nit-x.github.io/java/1v2 && cls   |
@@ -49,3 +51,5 @@
   | 11  | MonthExceptionDemo | curl -s -o MonthExceptionDemo.java https://nit-x.github.io/java/11 && cls    |
   | 12  | ThreadDemo         | curl -s -o ThreadDemo.java https://nit-x.github.io/java/12 && cls            |
 
+  **NOTE: FileName must be that of ClassName**
+ 
