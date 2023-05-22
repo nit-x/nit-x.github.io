@@ -5,7 +5,7 @@ class Scanner {
    
    System.out.print("Enter a String:");
    String s = s1.nextLine();
-   System.out.println("The entered String is: " + s)
+   System.out.println("The entered String is: " + s);
      
    System.out.print("Enter a character:");
    char c = (char)System.in.read();
