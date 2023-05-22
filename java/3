@@ -6,8 +6,7 @@ class CalculatorDemo
     int choice, a=0, b=0;
     do
     {
-      System.out.println("Select your choice\n\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Exit");
-      System.out.println();
+      System.out.println("\nSelect your choice:\n\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Exit");
       Scanner sc = new Scanner(System.in);
       choice=sc.nextInt();
       
