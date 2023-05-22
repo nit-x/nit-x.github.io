@@ -4,7 +4,7 @@
 Paste the following command in terminal to download the code:
 
 
-```console 
+```zsh 
 curl -s -o [FILENAME].java https://nit-x.github.io/[NUM] | cls
 ```
 Replace the brackets with the required name
@@ -17,7 +17,7 @@ Replace the brackets with the required name
 
  * <h2>Example:</h2>
 
-```bash 
+```zsh 
 C:\Users\admin\Desktop> curl -s -o ScannerDemo.java https://nit-x.github.io/java/1 | cls
 C:\Users\admin\Desktop> javac ScannerDemo.java
 C:\Users\admin\Desktop> java ScannerDemo
