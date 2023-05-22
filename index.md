@@ -23,8 +23,21 @@ C:\Users\admin\Desktop> curl -s -o ScannerDemo.java https://nit-x.github.io/java
 
 * <h2>Index:</h2>
 
-| NUM | ClassName        |
-|-----|------------------|
-| 1   | ScannerDemo      |
-| 1v2 | BufferReaderDemo |
-|     |                  |
+  | NUM | FileName          |
+  |-----|--------------------|
+  | 1   | ScannerDemo        |
+  | 1v2 | BufferedReaderDemo |
+  | 2   | DefaultValuesDemo  |
+  | 3   | CalculatorDemo     |
+  | 4   | CommandLineDemo    |
+  | 4v2 | CommandLineDemo2   |
+  | 5   | Bike               |
+  | 5v2 | Student            |
+  | 5v3 | Student            |
+  | 6   | Power              |
+  | 7   | ArrayDemo          |
+  | 8   | VectorDemo         |
+  | 9   | StudentResult      |
+  | 10  | InterfaceDemo      |
+  | 11  | MonthExceptionDemo |
+  | 12  | ThreadDemo         |
