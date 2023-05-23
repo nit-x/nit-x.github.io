@@ -30,6 +30,12 @@
   C:\Users\admin\Desktop> javac ScannerDemo.java
   C:\Users\admin\Desktop> java ScannerDemo
   ```
+  
+* <h2>Things to Remember:</h2>
+   * The Syntax Command
+   * The Experiment Number [NUM]
+   * The proper URL -> https://nit-x.github.io/java/[num]
+   * Always use 'cls' command or close the terminal after downloading the file
 
 * <h2>Index:</h2>
 
