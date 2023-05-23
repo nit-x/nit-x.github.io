@@ -10,7 +10,7 @@
   Paste the following command in terminal to download the code:
 
   ```zsh 
-  curl -s -o [FILENAME].java https://nit-x.github.io/[NUM] && cls
+  curl -s -o [FILENAME].java https://nit-x.github.io/java/[NUM] && cls
   ```
   Replace the brackets with the required name
 
