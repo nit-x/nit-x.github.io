@@ -35,7 +35,7 @@
  * The Syntax Command
  * The Experiment Number [NUM]
  * The proper URL 
-   -> https://nit-x.github.io/java/[num]
+   <p>-> https://nit-x.github.io/java/[num]</p>
  * Always use 'cls' command or close the terminal after downloading the file
 
 * <h2>Index:</h2>
