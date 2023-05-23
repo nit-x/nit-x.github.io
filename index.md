@@ -33,10 +33,13 @@
   
 * <h2>Things to Remember:</h2>
  * The Syntax Command
+   <p>- curl -s -o [FILENAME].java https://nit-x.github.io/java/[NUM] && cls</p>
  * The Experiment Number [NUM]
+   <p>- Refer Index</p>
  * The proper URL 
-   <p>-> https://nit-x.github.io/java/[num]</p>
+   <p>- https://nit-x.github.io/java/[num]</p>
  * Always use 'cls' command or close the terminal after downloading the file
+   <p>- 'clc'</p>
 
 * <h2>Index:</h2>
 
