@@ -32,6 +32,7 @@
   ```
   
 * <h2>Things to Remember:</h2>
+ * Connection to INTERNET is required.
  * The Syntax Command
    <p>- curl -s -o [FILENAME].java https://nit-x.github.io/java/[NUM] && cls</p>
  * The Experiment Number [NUM]
