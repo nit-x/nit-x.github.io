@@ -46,7 +46,7 @@
 
 | NUM | FileName           |                      Download                               | Command                                                                    |
 |-----|--------------------|:-----------------------------------------------------------:|----------------------------------------------------------------------------|
-| 1   | ScannerDemo        | [📥](https://nit-x.github.io/java/ScannerDemo.java)         | curl -s -o ScannerDemo.java https://nit-x.github.io/java/1 && cls          |
+| 1   | ScannerDemo        | [📥](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nit-x/nit-x.github.io/tree/main/java/ScannerDemo.java)         | curl -s -o ScannerDemo.java https://nit-x.github.io/java/1 && cls          |
 | 1v2 | BufferedReaderDemo | [📥](https://nit-x.github.io/java/BufferedReaderDemo.java)  | curl -s -o BufferedReaderDemo.java https://nit-x.github.io/java/1v2 && cls |
 | 2   | DefaultValuesDemo  | [📥](https://nit-x.github.io/java/DefaultValuesDemo.java)   | curl -s -o DefaultValuesDemo.java https://nit-x.github.io/java/2 && cls    |
 | 3   | CalculatorDemo     | [📥](https://nit-x.github.io/java/CalculatorDemo.java)      | curl -s -o CalculatorDemo.java https://nit-x.github.io/java/3 && cls       |
