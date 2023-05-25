@@ -1,0 +1,48 @@
+import java.applet.*;
+import java.awt.*;
+public class Smiley extends Applet
+{
+  String str;
+  public static void main(String[] args) {
+  
+  }
+  public void init()
+  {
+    str = getParameter("text");
+    if(str == null)
+    {
+      str = "User";
+    }
+    str = "Hello"+ str +"!!";
+  }
+  public void paint (Graphics g)
+  {
+    g.drawString(str, 20, 20);
+    g.setColor(Color.yellow);
+    g.fillOval(50,50,300,300); /*face*/
+    g.setColor(Color.white);
+    g.fillOval(100,100,70,150); /*border left*/
+    g.setColor(Color.black);
+    g.fillOval(100,150,50,50); /*eyeleft*/
+    g.setColor(Color.white);
+    g.fillOval(200,100,70,150); /*border right*/
+    g.setColor(Color.black);
+    g.fillOval(200,150,50,50); /*eyeright*/
+    g.fillRect(150,300,70,5);
+  }
+}
+
+/*
+//Create a "Smiley.html" file and write this code:
+<!DOCTYPE html>
+<html>
+<head>
+<title>The World of Applets</title>
+</head>
+<body>
+<applet code="Smiley.class" width="400" height="400">
+<param name="text" value=", Welcome to the world of Applets">
+</applet>
+</body>
+</html>
+*/
