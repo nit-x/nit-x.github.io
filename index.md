@@ -2,9 +2,13 @@
 
 **Disclaimer: Any actions and or activities related to this tool is solely your responsibility.**
 
+* <h2>GitHub Repository</h2>
+
+  Click [Here](https://github.com/nit-x/nit-x.github.io/tree/main/java)
+
 * <h2>Lab Manual PDF</h2>
  
-  Click  here to [**DOWNLOAD**](https://nit-x.github.io/java/Lab%20Manual.pdf)
+   Click  here to [**DOWNLOAD**](https://nit-x.github.io/java/Lab%20Manual.pdf)
 
 * <h2>Syntax:</h2>
   Paste the following command in terminal to download the code:
