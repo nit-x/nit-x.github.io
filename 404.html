@@ -8,14 +8,11 @@
         let htmlString = '<ul>';
         
         for (let file of data) {
-          if(file.name!="index.html"){
-            if(file.type=="file"){
-              htmlString += `<li><a href="/${file.path}" download>${file.name}</a></li>`;
-            }
-            else{
-              htmlString += `<li><a href="/${file.path}">~${file.name}</a></li>`;
-            }
-
+          if(file.type=="file"){
+            htmlString += `<li><a href="/${file.path}" download>${file.name}</a></li>`;
+          }
+          else{
+            htmlString += `<li><a href="/${file.path}">~${file.name}</a></li>`;
           }
         }
 
