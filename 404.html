@@ -2,9 +2,8 @@
   <body>
     <script>
       (async () => {
-        var pathh = window.location.pathname; 
-        console.log(pathh);
-        const response = await fetch('https://api.github.com/repos/nit-x/nit-x.github.io/contents/python');
+        var path = window.location.pathname; 
+        const response = await fetch('https://api.github.com/repos/nit-x/nit-x.github.io/contents'+path);
         const data = await response.json();
         let htmlString = '<ul>';
         
