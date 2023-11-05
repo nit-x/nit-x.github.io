@@ -21,7 +21,7 @@ clrscr();
  line(x1,y1,x2,y2);
  line(x2,y2,x3,y3);
  line(x3,y3,x1,y1);
- printf("Enter translation factor");
+ printf("Enter translation factor: ");
  scanf("%d%d",&xt,&yt);
  nx1=x1+xt;
  ny1=y1+yt;
