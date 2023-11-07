@@ -4,11 +4,10 @@
 
 void enQueue(int);
 void deQueue();
-void peek()
+void peek();
 void display();
 int isFull();
 int isEmpty();
-
 
 int queue[SIZE], front = -1, rear = -1;
 
