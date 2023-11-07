@@ -39,7 +39,7 @@ int main()
     printf("\n");
 
     
-    wfor(int i =0; exp[i]!= '\0'; i++)
+    for(int i =0; exp[i]!= '\0'; i++)
     {
         if(isalnum(exp[i])){
             printf("%c", exp[i]);
@@ -66,6 +66,5 @@ int main()
     {
         printf("%c ",pop());
     }
-    
     return 0;
 }
