@@ -56,7 +56,7 @@ int main()
         else
         {
             while(priority(stack[top]) >= priority(exp[i])){
-                printf("%c ",pop());
+                printf("%c", pop());
             }
             push(exp[i]);
         }
@@ -64,7 +64,7 @@ int main()
     
     while(top != -1)
     {
-        printf("%c ",pop());
+        printf("%c", pop());
     }
     return 0;
 }
